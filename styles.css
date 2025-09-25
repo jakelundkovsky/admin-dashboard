@@ -60,10 +60,6 @@ body, p, h1, h2, h3, h4, h5, h6  {
     flex-direction: column;
 }
 
-.bottom-container {
-    flex: 1;
-}
-
 .top-nav {
     display: flex;
     flex-direction: column;
@@ -142,4 +138,69 @@ body, p, h1, h2, h3, h4, h5, h6  {
 
 .dark {
     background-color: #063247;
+}
+
+.bottom-container {
+    flex: 1;
+    display: flex;
+    gap: 32px;
+    padding: 16px;
+}
+
+.projects-container {
+    flex: 2.5;
+}
+
+.right-sidebar {
+    flex: 1;
+}
+
+.announcements-container {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+
+    .gray {
+        color: rgb(84, 84, 84);
+    }
+}
+
+.trending-profile {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: rgb(66, 66, 66);
+    padding: 4px 0;
+}
+
+.top-margin {
+    margin-top: 16px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.project-cell {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: white;
+    border-left: 4px solid gold;
+    gap: 16px;
+}
+
+.project-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.project-icon {
+    height: 16px;
+    width: 16px;
 }
